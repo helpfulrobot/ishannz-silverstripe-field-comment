@@ -1,0 +1,74 @@
+.fieldcomment {
+    padding: 3px;
+    clear: both;
+}
+
+.fieldcomment .wrapper {
+    width: 100%;
+}
+
+.fieldcomment .comments {
+    margin-bottom: 12px;
+}
+.fieldcomment .comments ul {
+    margin-top: 10px;
+}
+.fieldcomment .comments li {
+    margin-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.fieldcomment .comments li a {
+    text-decoration: none;
+}
+
+.fieldcomment .envelop {
+    background-image: url("../images/mail_read.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.fieldcomment .unread .envelop {
+    background-image: url("../images/mail_unread.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.fieldcomment .comment-summary, .fieldcomment .comment-full {
+    padding-left: 3px;
+    font-size: 14px;
+    width: 83%;
+}
+
+.fieldcomment .meta {
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding-top: 3px;
+}
+
+.fieldcomment .hidden {
+    display: none;
+}
+
+.fieldcomment .controls {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.fieldcomment .controls span {
+    padding-left: 35px;
+    display: inline-block;
+}
+
+.fieldcomment textarea {
+    visibility: visible;
+}
+
+.fieldcomment .new-comment {
+    margin-top: 10px;
+}

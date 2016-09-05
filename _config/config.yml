@@ -1,0 +1,6 @@
+LeftAndMain:
+  extra_requirements_javascript:
+    - silverstripe-field-comment/js/fieldcomment.js
+Director:
+  rules:
+    'fieldcomment' : 'silverstripe\fieldComment\FieldCommentController'

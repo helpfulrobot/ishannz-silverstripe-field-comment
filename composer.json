@@ -1,0 +1,30 @@
+{
+    "name": "ishannz/silverstripe-field-comment",
+    "description": "comment on cmsfield for SilverStripe cms",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "Comment", "cmsfield"],
+    "license": "GNU GPL",
+    "authors": [
+    {
+        "name": "Ishan Jayamanne",
+        "email": "ishanjmails@gmail.com"
+    }],
+
+        "support": {
+        "issues": "https://github.com/ishannz/silverstripe-field-comment/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "silverstripe-field-comment\\": "/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "composer/installers": "*",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": ">=3.1.0"
+    },
+
+  "minimum-stability": "dev"
+
+}
